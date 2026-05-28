@@ -9,7 +9,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    
+    <style>
+      .wechat-link { position: relative; display: inline-block; }
+      .wechat-popup {
+        display: none;
+        position: absolute;
+        bottom: 130%;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 100;
+        padding: 6px;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+      }
+      .wechat-popup img {
+        display: block;
+        width: 180px;
+        height: 180px;
+        object-fit: contain;
+      }
+      .wechat-link:hover .wechat-popup,
+      .wechat-link:focus .wechat-popup { display: block; }
+    </style>
   </head>
 
   <body>
@@ -25,7 +48,7 @@
                 <p>
                   I'm <b>Lulu</b>, the Chief Eating Officer in <a href="https://en.wikipedia.org/wiki/Putuo_District,_Shanghai">Putuo, Shanghai</a>, where I lead a small human team that mostly works on <a href="#opening-cans">Opening Cans</a>.
                   At home I've worked on <a href="#naps">Sunbeam Napping</a>, <a href="#keyboard">Keyboard Sitting</a>, <a href="#zoomies">3 AM Sprints</a>, <a href="#boxes">Box Inspection</a>, and <a href="#window">Chirping at Birds</a>.
-                  Although built on the <a href="https://en.wikipedia.org/wiki/Guangdong">Guangdong</a> orange sparrow-cat architecture, I was physically deployed (born) at <a href="https://en.wikipedia.org/wiki/Yuqiao_station">Yuqiao Metro Station</a> in Shanghai. After conducting 3 months of rigorous independent field research on the local streets, I successfully recruited my current human staff on June 23, 2025, where I was initially advised by <a href="shirun/">Shirun</a>.
+                  Although built on the <a href="https://en.wikipedia.org/wiki/Guangdong">Guangdong</a> orange sparrow-cat architecture, I was physically deployed (born) at <a href="https://en.wikipedia.org/wiki/Yuqiao_station">Yuqiao Metro Station</a> in Shanghai. After conducting 3 months of rigorous independent field research on the local streets, I successfully recruited my current human staff on June 23, 2025, where I was initially advised by <a href="https://www.linkedin.com/in/shiruntang/">Shirun</a>.
                   I've received the <a href="#good-kitty">Best Orange Cat (Local Apartment Division) Award</a>.
                 </p>
                 <p style="text-align:center">
@@ -34,7 +57,9 @@
                   <!-- <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
                   <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp; -->
                   <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp; -->
-                  <a href="https://github.com/ShirunK/">Github</a>
+                  <a href="https://github.com/ShirunK/">Github</a> &nbsp;/&nbsp;
+                  <a href="https://www.linkedin.com/in/shiruntang/">LinkedIn</a> &nbsp;/&nbsp;
+                  <a href="images/shirun/wechat.jpg" class="wechat-link" target="_blank" rel="noopener">WeChat<span class="wechat-popup"><img src="images/shirun/wechat.jpg" alt="WeChat QR Code"></span></a>
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
